@@ -25,7 +25,7 @@ const Blog = ({ blog,handleReadBtn }) => {
           <div>
             <div className="flex gap-3">
               <p>{readingTime} min read</p>
-              <span onClick={()=>handleReadBtn(readingTime)}>
+              <span onClick={()=>handleReadBtn(blog)}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
