@@ -1,10 +1,13 @@
 import PropTypes from "prop-types";
+import Blog from "../Blog/Blog";
 
 const Blogs = ({ blogs }) => {
   console.log(blogs);
   return (
     <div>
-      <h1>blogs{blogs.length}</h1>
+     {
+      blogs.map(blog=><Blog blog={blog} key={blog.id}/>)
+     }
     </div>
   );
 };
