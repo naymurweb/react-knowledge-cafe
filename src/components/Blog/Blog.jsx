@@ -1,10 +1,9 @@
 import PropsTypes from "prop-types";
 import authorProfile from "../../assets/boy1.png";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleReadBtn }) => {
   const { coverImage, authorName, blogTitle, date, hashtags, readingTime } =
     blog;
-  console.log(blog);
   return (
     <div className="mb-16">
       <img src={coverImage} alt="" width="100%" />
@@ -26,14 +25,14 @@ const Blog = ({ blog }) => {
           <div>
             <div className="flex gap-3">
               <p>{readingTime} min read</p>
-              <span>
+              <span onClick={()=>handleReadBtn(readingTime)}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 cursor-pointer"
                 >
                   <path
                     strokeLinecap="round"
@@ -58,5 +57,6 @@ const Blog = ({ blog }) => {
 };
 Blog.propTypes = {
   blog: PropsTypes.object.isRequired,
+  handleReadBtn:PropsTypes.func.isRequired
 };
 export default Blog;

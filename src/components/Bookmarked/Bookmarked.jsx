@@ -1,11 +1,17 @@
+import SpentTime from "../SpentTime/SpentTime";
+import PropTypes from "prop-types";
 
-const Bookmarked = () => {
+const Bookmarked = ({spentTime }) => {
     return (
         <div>
-            <h1>bookmarked</h1>
+            <SpentTime spentTime={spentTime}/>
             
         </div>
     );
 };
+
+Bookmarked.propTypes={
+    spentTime:PropTypes.number.isRequired
+}
 
 export default Bookmarked;
