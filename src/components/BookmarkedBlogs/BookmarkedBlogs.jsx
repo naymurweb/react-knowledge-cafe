@@ -1,5 +1,5 @@
 
-const Blog = () => {
+const BookmarkedBlogs = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default BookmarkedBlogs;

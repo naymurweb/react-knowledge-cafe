@@ -1,5 +1,4 @@
-
-const Blog = () => {
+const SpentTime = () => {
     return (
         <div>
             
@@ -7,4 +6,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default SpentTime;
