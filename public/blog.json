@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "coverImage": "https://i.ibb.co/56bXWPH/d.png",
+        "authorProfile": "https://i.ibb.co/1M1f2RG/smart-looking-teacher.jpg",
+        "authorName": "John Doe",
+        "blogTitle": "Exploring the Universe: A Cosmic Adventure",
+        "date": "2023-10-30",
+        "hashtags": ["#Space", "#Astronomy", "#Science"],
+        "readingTime": 15
+    },
+    {
+        "id": "2",
+        "coverImage": "https://i.ibb.co/hHmjdKH/Rectangle-1.png",
+        "authorProfile": "https://i.ibb.co/93p3Sjp/dark-blonde-bearded-man-crosses-his-hands-chest-posing-black-shirt.jpg",
+        "authorName": "Alice Brown",
+        "blogTitle": "The Art of Cooking: Culinary Masterpieces",
+        "date": "2023-10-29",
+        "hashtags": ["#Cooking", "#Food", "#Recipes"],
+        "readingTime": 12
+    },
+    {
+        "id": "3",
+        "coverImage": "https://i.ibb.co/25x9jc6/Rectangle-1.png",
+        "authorProfile": "https://i.ibb.co/1M1f2RG/smart-looking-teacher.jpg",
+        "authorName": "Sarah Smith",
+        "blogTitle": "Mindfulness in Daily Life: Finding Inner Peace",
+        "date": "2023-10-28",
+        "hashtags": ["#Mindfulness", "#Wellness", "#SelfCare"],
+        "readingTime": 8
+    },
+    {
+        "id": "4",
+        "coverImage": "https://i.ibb.co/DCxHhpq/top-view-desk-concept-with-coffee.jpg",
+        "authorProfile": "https://i.ibb.co/93p3Sjp/dark-blonde-bearded-man-crosses-his-hands-chest-posing-black-shirt.jpg",
+        "authorName": "Michael Jones",
+        "blogTitle": "Future of Technology: Innovations and Trends",
+        "date": "2023-10-27",
+        "hashtags": ["#Technology", "#Innovation", "#Future"],
+        "readingTime": 20
+    },
+    {
+        "id": "5",
+        "coverImage": "https://i.ibb.co/56bXWPH/d.png",
+        "authorProfile": "https://i.ibb.co/93p3Sjp/dark-blonde-bearded-man-crosses-his-hands-chest-posing-black-shirt.jpg",
+        "authorName": "Emily Wilson",
+        "blogTitle": "Discovering Hidden Gems: Travel Adventures",
+        "date": "2023-10-26",
+        "hashtags": ["#Travel", "#Adventure", "#Explore"],
+        "readingTime": 18
+    }
+]
